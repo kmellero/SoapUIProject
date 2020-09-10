@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:Subtract>
+         <tem:intA>${MyProperties#subA}</tem:intA>
+         <tem:intB>${MyProperties#subB}</tem:intB>
+      </tem:Subtract>
+   </soapenv:Body>
+</soapenv:Envelope>
